@@ -2,8 +2,8 @@ import unittest
 from requests.exceptions import Timeout
 from unittest.mock import Mock
 
+
 print("this line added in firstbranch")
-requests=Mock()
 
 def get_holidays():
    r=requests.get("httpL://localhost/api/holidays")
