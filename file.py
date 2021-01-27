@@ -2,7 +2,6 @@ import unittest
 from requests.exceptions import Timeout
 from unittest.mock import Mock
 
-print("this extra line added")
 
 requests=Mock()
 
